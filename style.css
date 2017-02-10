@@ -1,22 +1,67 @@
 
 body{
-
+	
 }
+/*pinned head*/
 :focus {
 outline: 0;}
 .head-pin {
 	background: rgb(255,255,255);
-	width:300%;
+	min-width: 100%;
+	max-width: 300%;
     opacity: 0.5;
-    z-index:0;
+    z-index: 0;
     position: fixed;
 	min-height: 45px;
 }
 .header{
 	background: url("img/headbg.jpg") no-repeat;
 	background-size: 100%;
-	max-width: 3000px;
+	max-width: 300%;
 }
-div .header h1{
+ul.link {
+	display: inline-block;
+  	position:relative;
+	float:right;
+	right:10%;
+}
+.link li{
+	display: inline-block;
+	float: left;
+	padding-right: 15px;
+}
+a {
+	text-decoration: none;
+	font-family: Tahoma;
+	font-weight: 900;
+	font-size: 120%;
+	color: black;
+}
+a:hover{
+	color: #3498DB;
+	font-size: 122%;
+}
+
+/*Header block*/
+}
+div.sometxt{
+	position:relative;
+	
+}
+.sometxt h1{
+	display: block;
+	position: absolute;
 	text-align: center;
+	top: 100px;
+	left: 200px;
+	right: 200px;
+	font-style: bold;
+	color: white;
+}
+div.frame{
+	position: initial;
+	margin: 10px;
+	width: 400; 
+	height: 257;
+	padding: 5px;
 }
