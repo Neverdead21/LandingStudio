@@ -1,0 +1,22 @@
+
+body{
+
+}
+:focus {
+outline: 0;}
+.head-pin {
+	background: rgb(255,255,255);
+	width:300%;
+    opacity: 0.5;
+    z-index:0;
+    position: fixed;
+	min-height: 45px;
+}
+.header{
+	background: url("img/headbg.jpg") no-repeat;
+	background-size: 100%;
+	max-width: 3000px;
+}
+div .header h1{
+	text-align: center;
+}
