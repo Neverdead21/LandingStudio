@@ -45,7 +45,8 @@ a:hover{
 /*Header block*/
 }
 div.sometxt{
-	position:relative;
+	min-width: 400px;
+	max-width: 800px;
 	
 }
 .sometxt h1{
@@ -59,9 +60,12 @@ div.sometxt{
 	color: white;
 }
 div.frame{
-	position: initial;
-	margin: 10px;
-	width: 400; 
-	height: 257;
+	background: url("svg/framefull");
+	width: 400px; 
+	height: 257px;
 	padding: 5px;
+}
+video{
+	width: 370
+	height: 227;
 }
