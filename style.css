@@ -127,38 +127,85 @@ form input:last-child{
 	font-weight: bold;
 	text-indent: 0;
 }
-#ribbon{
-	display: block;
-	position: relative;
-	float: left;
+#rib-container{
+	max-width: 75%;
 	min-width: 980px;
+	margin: 0 auto;
+	padding: 0;
+}
+#ribbon{
+	min-width: 980px;
+	max-width: 1600px;
 	min-height: 150px;
-	margin-top: 70px;
-	margin-bottom: 10px;
+	max-height: 400px;
+	margin: 0 auto;
+	margin-top: 380;
+	padding: 0;
 	background: url("svg/ribbon.svg") no-repeat;
+	background-size: 100%;
+	
 }
 #ribbon h2{
 	text-align: center;
 	font-size: 1.8em;
 	font-family: Tahoma;
 	font-weight: bold;
-	margin-left: 60px;
 	color: white;
 }
 /*THE END OF HEADER BLOCK*/
 /*1STBLOCK BEGINS MAZAFAKA*/
+div.firstblock{
+	min-width: 960px;
+	max-width: 300%;
+	min-height: 500;
+
+}
 .firstblock h2{
 	text-align: center;
 	font-size: 30px;
 	font-weight: bold;	
 }
-div.tabs:after{
-	width: 170px;
-	height: 275px;
-	background: url("svg/frameverical.svg") no-repeat;
-	-webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
+div#tab-cont{
+	max-width: 75%;
+	min-width: 980px;
+	max-height: 252px;
+	margin: 0 auto;
+	padding: 0;
 }
+div.tabs{
+	float: left;
+	width: 172px;
+	height: 252px;
+	margin: 0 74px;
+}
+/*end 1*/
+/*start 2*/
+h2.hiw{
+	font-family: Tahoma;
+	text-align: center;
+	font-size: 3em;
+	color: orange;
+}
+table{
+	min-width: 980px;
+	margin: 0 auto;
+	margin-left: 100px;
+	padding: 10;
+}
+td{
+	min-width: 100px;
+	min-height: 100px;
+}
+td img{
+	width: 100px;
+	height: 100px;
+}
+tr:nth-child(2){
+	text-align: center;
+	font-size: 3em;
+	padding: 10px;
+}
+tr:first-child td:last-child{
+	width: 100px;
+}
+tr:last-child td:last-child
