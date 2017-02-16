@@ -1,12 +1,3 @@
-<div class="countdown">
-  <div class="days"></div>
-  <div class="hours"></div>
-  <div class="minutes"></div>
-  <div class="seconds"></div>
-</div>
-
-
-
 (function() {
   var countdown = new Countdown(Date.parse('2017-01-24')),
     view = new View(document.querySelector('.countdown'), countdown);
@@ -18,10 +9,10 @@
    * @param {Countdown} countdown Объект счетчика.
    */
   function View(container, countdown) {
-    this.days = container.querySelector('.days'),
-      this.hours = container.querySelector('.hours'),
-      this.minutes = container.querySelector('.minutes'),
-      this.seconds = container.querySelector('.seconds');
+    this.days = container.querySelector('.days');
+    this.hours = container.querySelector('.hours');
+    this.minutes = container.querySelector('.minutes');
+    this.seconds = container.querySelector('.seconds');
 
     this.render = function() {
       this.days.innerHTML = countdown.days;
@@ -69,4 +60,3 @@
     });
   };
 })();
-
